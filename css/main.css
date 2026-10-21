@@ -2,8 +2,17 @@
 
 /* Set custom variables here */
 
+:root {
+  --bs-primary: #063211;
+  --bs-primary-rgb: 6, 50, 17;
 
 
+  .btn-primary {
+    background-color:#063211;
+    border-color:#063211;
+    
+  }
+}
 
 
 .navbar-brand {
