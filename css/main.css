@@ -3,16 +3,21 @@
 /* Set custom variables here */
 
 :root {
-  --bs-primary: #063211;
-  --bs-primary-rgb: 6, 50, 17;
+  --bs-body-bg: #F6F3ED;
+  --bs-primary: #2e483a;
+  --bs-primary-rgb: 46, 72, 58;
+  --bs-light:#f6f3ed;
+  --bs-light-rgb: 246, 243, 237;
 
 
-  .btn-primary {
-    background-color:#063211;
-    border-color:#063211;
-    
-  }
+  
 }
+
+.btn-primary {
+    background-color:#2e483a;
+    border-color:#2e483a;
+    color: #F6F3ED;
+  }
 
 
 .navbar-brand {
